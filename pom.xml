@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ramesh</groupId>
-	<artifactId>java</artifactId>
+	<artifactId>practice-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>practice</name>
+	<name>practice-java</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
