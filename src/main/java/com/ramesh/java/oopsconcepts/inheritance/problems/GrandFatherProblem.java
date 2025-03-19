@@ -1,4 +1,4 @@
-package com.ramesh.java.oopsconcepts.problems;
+package com.ramesh.java.oopsconcepts.inheritance.problems;
 
 class GrandFather {
     String grandFatherName;

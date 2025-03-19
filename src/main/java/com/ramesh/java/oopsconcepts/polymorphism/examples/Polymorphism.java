@@ -1,4 +1,4 @@
-package com.ramesh.java.oopsconcepts.examples;
+package com.ramesh.java.oopsconcepts.polymorphism.examples;
 
 public class Polymorphism {
     public static void main(String[] args) {

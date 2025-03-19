@@ -1,4 +1,4 @@
-package com.ramesh.java.oopsconcepts.examples;
+package com.ramesh.java.oopsconcepts.inheritance.examples;
 
 class Animal {
     String name;
