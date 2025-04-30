@@ -13,6 +13,4 @@ public class MapExample {
 
         System.out.println(evenOnlySquareList);
     }
-
-
 }
