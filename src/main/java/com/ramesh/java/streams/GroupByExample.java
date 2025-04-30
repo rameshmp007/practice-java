@@ -9,17 +9,19 @@ public class GroupByExample {
     public static void main(String[] args) {
         List<String> strings = Arrays.asList("a","ab","c","a4d","fefsff","32","45");
 
-        Map<Integer, List<String>> map = strings.stream().collect(Collectors.groupingBy(String::length));
-        System.out.println(map);
+        // Group the list of strings based on the length of the string
+        Map<Integer, List<String>> groupByStringLength = strings
+                .stream()
+                .collect(Collectors.groupingBy(String::length));
+        System.out.println(groupByStringLength);
 
+        List<Integer> nums = List.of(3, 4, 5, 6, 7, 10);
 
-        List<Integer> list2 = List.of(3, 4, 5, 6, 7, 10);
-
-        Map<String, List<Integer>> groupedNumbers = list2
+        // Group the list of numbers based on even or odd
+        Map<String, List<Integer>> groupedByEvenOdd = nums
                 .stream()
                 .collect(Collectors.groupingBy(n -> n % 2 == 0 ? "even" : "odd"));
-
-        System.out.println(groupedNumbers);
+        System.out.println(groupedByEvenOdd);
 
     }
 }
