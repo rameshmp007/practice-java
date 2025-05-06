@@ -1,6 +1,6 @@
 package com.ramesh.java.dsa.recursion.examples;
 
-public class SumOfDigits {
+public class DigitSum {
     public static void main(String[] args) {
         System.out.println(sumOfDigits(1346925));
     }

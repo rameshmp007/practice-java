@@ -1,6 +1,6 @@
 package com.ramesh.java.dsa.recursion.examples;
 
-public class ProductOfDigits {
+public class DigitProduct {
     public static void main(String[] args) {
         System.out.println(productOfDigits(126345));
     }
