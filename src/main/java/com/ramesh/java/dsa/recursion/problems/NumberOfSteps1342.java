@@ -1,4 +1,4 @@
-package com.ramesh.java.dsa.recursion.patterns;
+package com.ramesh.java.dsa.recursion.problems;
 
 public class NumberOfSteps1342 {
     public static void main(String[] args) {
