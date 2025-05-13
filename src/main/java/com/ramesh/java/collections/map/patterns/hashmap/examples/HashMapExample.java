@@ -1,4 +1,4 @@
-package com.ramesh.java.collections.hashmap.examples;
+package com.ramesh.java.collections.map.patterns.hashmap.examples;
 
 import java.util.HashMap;
 import java.util.Map;

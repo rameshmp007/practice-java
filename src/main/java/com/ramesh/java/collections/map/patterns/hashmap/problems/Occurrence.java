@@ -1,4 +1,4 @@
-package com.ramesh.java.collections.hashmap.problems;
+package com.ramesh.java.collections.map.patterns.hashmap.problems;
 
 import java.util.*;
 
